@@ -1,0 +1,10 @@
+cin.eof()->{
+	gives the end of file character. So, in cases where you have to take strings with newline characters as inputs, you can use this as follows:
+	while(true){
+		char ch=cin.get();
+		if(cin.eof())
+			break;
+	}
+
+	Cheers!!!!
+}
